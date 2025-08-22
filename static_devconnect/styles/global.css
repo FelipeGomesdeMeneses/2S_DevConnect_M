@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Marcellus&display=swap');
+
+@font-face {
+    font-family: Gfs_Didot;
+    src: url(../assets/fonts/GFS_Didot/GFSDidot-Regular.ttf);
+}
+
+@font-face {
+    font-family: Marcellus;
+    src: url(../assets/fonts/Marcellus/Marcellus-Regular.ttf);
+}
+
+/* variaveis */
+:root {
+    --cor-cinza: #3c3f41;
+    --cor-branco: #f4f6f8;
+    --cor-azul-claro: #81bdfd;
+    --cor-azul-royal: #007bff;
+    --cor-azul-cinza: #456275;
+    --cor-azul-escuro: #1f2a44;
+
+    --borda: 1px solid var(--cor-cinza);
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+/* SELETOR GLOBAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gfs_Didot", serif ;
+    font-family: "Marcellus", serif;
+}
+
+body{
+    background-color: var(--cor-azul-cinza);
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
