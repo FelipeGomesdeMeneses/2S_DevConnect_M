@@ -20,7 +20,7 @@ form {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     padding: 3%;
 
 }
@@ -44,27 +44,7 @@ form {
     width: 100%;
 }
 
-form>p {
-    text-transform: uppercase;
-    font-size: var(--tamanho-fonte-sm);
-    color: var(--cor-preta);
-
-}
-
-form>a {
-    color: var(--cor-preta);
-    font-size: var(--tamanho-fonte-sm);
-    text-decoration: none;
-}
-
-form>a, #secao-cadastro>p>a {
-    color: var(--cor-preta);
-    font-size: var(--tamanho-fonte-sm);
-    text-decoration: none;
-}
-
-
-#secao-cadastro {
+#secao-login {
     height: 60px;
     display: flex;
     justify-content: center;
@@ -73,15 +53,21 @@ form>a, #secao-cadastro>p>a {
 }
 
 
-#secao-cadastro>p {
+#secao-login>p {
     color: var(--cor-preta);
     font-size: var(--tamanho-fonte-sm);
 }
 
-#secao-instalacao {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+#secao-upload{
+    display: none;
+}
+
+#upload{
+    display: inline-block;
+    width: 100%;
+    background-color: var(--cor-azul-escuro);
+    font-size: var(--tamanho-fonte-sm);
+    text-align: center;
+    color: var(--cor-branco);
+    padding: 10px;
 }
