@@ -27,10 +27,7 @@ form {
 
 
 .estilo-formulario {
-    width: 100%;
     max-width: 342px;
-    background-color: var(--cor-azul-royal);
-    border: var(--borda);
 }
 
 #formulario-campos {
@@ -58,16 +55,4 @@ form {
     font-size: var(--tamanho-fonte-sm);
 }
 
-#secao-upload{
-    display: none;
-}
 
-#upload{
-    display: inline-block;
-    width: 100%;
-    background-color: var(--cor-azul-escuro);
-    font-size: var(--tamanho-fonte-sm);
-    text-align: center;
-    color: var(--cor-branco);
-    padding: 10px;
-}

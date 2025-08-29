@@ -1,0 +1,59 @@
+main{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container-flex-publi{
+    background-color:blue;
+    height: 700px;
+    width: 90%;
+    max-width: 900px;
+}
+
+#storys{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+#storys::-webkit-scrollbar{
+    width: 0;
+}
+
+.card-story{
+    /* background-color: darkorange; */
+}
+
+.card-story>button{
+    background-color: transparent;
+    border: none;
+
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preta);
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-story>button>img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+/* Seção criar publi */
+.formulario-botao-azul{
+    width: 150px;
+}
